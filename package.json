@@ -1,0 +1,19 @@
+{
+  "name": "normanai_reactsdk",
+  "version": "1.0.0",
+  "description": "react component sdk that download and store the initial json style data",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "lib/index.js",
+    "types":"lib/index.d.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+
+  "files": ["lib/**/*"]
+}
