@@ -1,14 +1,39 @@
 {
   "name": "normanai_sdk",
-  "version": "4.0.1",
-  "description": "react component sdk that download and store the initial json style data",
+  "version": "13.0.1",
+  "description": "Aa powerful tool for creating AI-based UI and UX for React components. With NormanAI, you can enhance your application's user experience by incorporating machine learning and natural language processing.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+     "build": "tsc"
   },
-  "keywords": [],
+  "keywords": [
+    "ai",
+    "machine learning",
+    "natural language processing",
+    "react",
+    "components",
+    "user interface",
+    "user experience",
+    "seo",
+    "meta tags",
+    "search engine optimization",
+    "web development",
+    "javascript",
+    "library",
+    "tool",
+    "sdk",
+    "software development",
+    "front-end development",
+    "artificial intelligence",
+    "userinterface",
+    "user experience",
+    "UI",
+    "UX",
+     "AIUX",
+     "AIUI"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -21,6 +46,9 @@
     "lib/**/*"
   ],
   "dependencies": {
-    "fs": "^0.0.1-security"
+    "@types/react": "^18.0.28",
+    "fs": "^0.0.1-security",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

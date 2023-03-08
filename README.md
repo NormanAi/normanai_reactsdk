@@ -1,2 +1,5 @@
-# normanai_reactsdk
-react component sdk that download and store the initial json style data 
+#NormanAI SDK
+NormanAI SDK is a powerful tool for creating AI-based UI and UX for React components. With NormanAI, you can enhance your application's user experience by incorporating machine learning and natural language processing.
+
+Installation
+To use NormanAI SDK, simply install it using npm:
