@@ -3,7 +3,7 @@ async function init(url: string): Promise<void> {
   try {
     const response = await fetch(url);
     const data = await response.json();
-    localStorage.setItem('abc', JSON.stringify(data));
+    localStorage.setItem('style', data);
     console.log('Data downloaded and saved successfully.');
   } catch (error:any) {
     console.error('Data download failed:', error.message);
@@ -23,7 +23,7 @@ async function init_functions(url: string): Promise<void> {
 
 function readData(): any {
   try {
-    const jsonData = localStorage.getItem('abc');
+    const jsonData = localStorage.getItem('style');
     const data = JSON.parse(jsonData || '');
     return data;
   } catch (error:any) {

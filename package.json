@@ -1,12 +1,12 @@
 {
   "name": "normanai_sdk",
-  "version": "13.0.1",
+  "version": "15.0.0",
   "description": "Aa powerful tool for creating AI-based UI and UX for React components. With NormanAI, you can enhance your application's user experience by incorporating machine learning and natural language processing.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "prepare": "npm run build",
-     "build": "tsc"
+    "build": "tsc"
   },
   "keywords": [
     "ai",
@@ -31,8 +31,8 @@
     "user experience",
     "UI",
     "UX",
-     "AIUX",
-     "AIUI"
+    "AIUX",
+    "AIUI"
   ],
   "author": "",
   "license": "ISC",
@@ -48,6 +48,7 @@
   "dependencies": {
     "@types/react": "^18.0.28",
     "fs": "^0.0.1-security",
+    "normanai_sdk": "^14.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
